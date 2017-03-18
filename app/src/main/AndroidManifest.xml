@@ -16,7 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DoctorRequestScreen"></activity>
+        <activity android:name=".DoctorRequestScreen" />
+        <activity
+            android:name=".AddCourseStudentScreen"
+            android:label="Adding Course" />
+        <activity
+            android:name=".DeleteCourseStudentScreen"
+            android:label="Deleting Course" />
+        <activity android:name=".WithdrawCourseStudentScreen"
+            android:label="Withdraw Course"></activity>
     </application>
 
 </manifest>
